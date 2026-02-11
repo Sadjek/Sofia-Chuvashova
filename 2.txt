@@ -1,1 +1,52 @@
-dqwdwdwaadwawdaw
+C:\Users\Student>D:
+
+D:\>mkdir test1002
+
+D:\>cd test1002
+
+D:\test1002>git clon
+git: 'clon' is not a git command. See 'git --help'.
+
+The most similar commands are
+        clone
+        column
+
+D:\test1002>git clone https://github.com/Sadjek/Sofia-Chuvashova.git
+Cloning into 'Sofia-Chuvashova'...
+warning: You appear to have cloned an empty repository.
+
+D:\test1002>cd Sofia-Chuvashova
+
+D:\test1002\Sofia-Chuvashova>git config --global user.name
+kiki
+
+D:\test1002\Sofia-Chuvashova>git config --global user.name Sadjek
+
+D:\test1002\Sofia-Chuvashova>git config --global user.name
+Sadjek
+
+D:\test1002\Sofia-Chuvashova>git config --global user.email
+kristyadaniela@gmail.com
+
+D:\test1002\Sofia-Chuvashova>git config --global user.email sofiyachu@gmail.com
+
+D:\test1002\Sofia-Chuvashova>git config --global user.email
+sofiyachu@gmail.com
+
+D:\test1002\Sofia-Chuvashova>git add .
+
+D:\test1002\Sofia-Chuvashova>git commit -m "v1"
+[main (root-commit) a06fc85] v1
+ 2 files changed, 2 insertions(+)
+ create mode 100644 2.txt
+ create mode 100644 dawadwyhadwhy.txt
+
+D:\test1002\Sofia-Chuvashova>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 273 bytes | 273.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Sadjek/Sofia-Chuvashova.git
+ * [new branch]      main -> main
